@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0f0524,50:2d0a5e,100:5b21b6&amp;height=280&amp;section=header&amp;text=Condrea%20Andrei&amp;fontSize=60&amp;fontColor=D8B4FE&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Full%20Stack%20Developer%20and%20Computer%20Science%20Student&amp;descAlignY=58&amp;descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,50:2d0a5e,100:5b21b6&height=280&section=header&text=Condrea%20Andrei&fontSize=60&fontColor=D8B4FE&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20and%20Computer%20Science%20Student&descAlignY=58&descAlign=50" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=26&amp;duration=3000&amp;pause=1000&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Building+Resilient+Architectures;Crafting+Scalable+Systems;Bridging+Logic+and+Elegant+Design;Clean+Code+%7C+Secure+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+Resilient+Architectures;Crafting+Scalable+Systems;Bridging+Logic+and+Elegant+Design;Clean+Code+%7C+Secure+Systems" alt="Typing SVG" />
 </a>
 
 <br/>
 
 ![Computer Science Student](https://img.shields.io/badge/Computer%20Science%20Student-5B21B6?style=flat-square&logo=googlescholar&logoColor=white)
-![Location](https://img.shields.io/badge/Constanța%2C%20Romania-2D0A5E?style=flat-square&logo=googlemaps&logoColor=white)
+![Location](https://img.shields.io/badge/Constanța%2C%20Romania-2D0A5E?style=flat-square&logo=googlemaps&logoColor=white)
 
 <br/>
 
@@ -124,7 +124,7 @@ Full Stack Developer and Computer Science Student focused on **resilient archite
 <br/>
 
 <div align="center">
-  <img src="assets/md_asset1.png" alt="Luxury Booking Engine Dashboard" width="90%" />
+  <img src="./assets/md_asset1.png" alt="Luxury Booking Engine Dashboard" width="90%" />
 </div>
 
 <br/>
@@ -147,7 +147,7 @@ A sophisticated hotel reservation platform designed for a frictionless end-to-en
 <br/>
 
 <div align="center">
-  <img src="assets/md_asset2.png" alt="Restaurant Menu Application" width="90%" />
+  <img src="./assets/md_asset2.png" alt="Restaurant Menu Application" width="90%" />
 </div>
 
 <br/>
@@ -170,7 +170,7 @@ A full-featured relational web application tailored for high-efficiency restaura
 <br/>
 
 <div align="center">
-  <img src="assets/md_asset3.png" alt="Horizon Weather Interface" width="90%" />
+  <img src="./assets/md_asset3.png" alt="Horizon Weather Interface" width="90%" />
 </div>
 
 <br/>
@@ -193,7 +193,7 @@ A highly responsive forecasting application driven by modular JavaScript and rea
 <br/>
 
 <div align="center">
-  <img src="assets/md_asset4.png" alt="Student Management System" width="90%" />
+  <img src="./assets/md_asset4.png" alt="Student Management System" width="90%" />
 </div>
 
 <br/>
@@ -216,7 +216,7 @@ A native desktop administration suite engineered for speed and reliability when 
 <br/>
 
 <div align="center">
-  <img src="assets/md_asset5.png" alt="Thief Detection System Interface" width="90%" />
+  <img src="./assets/md_asset5.png" alt="Thief Detection System Interface" width="90%" />
 </div>
 
 <br/>
@@ -278,12 +278,12 @@ Focused on writing clean, object-oriented code and robust backend architectures,
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=AndrewTechTips&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D0221&amp;title_color=A78BFA&amp;icon_color=7C3AED&amp;text_color=D8B4FE&amp;ring_color=6D28D9" width="49%"/>
-<img src="https://streak-stats.demolab.com/?user=AndrewTechTips&amp;theme=radical&amp;hide_border=true&amp;background=0D0221&amp;stroke=6D28D9&amp;ring=A78BFA&amp;fire=7C3AED&amp;currStreakLabel=D8B4FE" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=AndrewTechTips&show_icons=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&icon_color=7C3AED&text_color=D8B4FE&ring_color=6D28D9" width="49%"/>
+<img src="https://streak-stats.demolab.com/?user=AndrewTechTips&theme=radical&hide_border=true&background=0D0221&stroke=6D28D9&ring=A78BFA&fire=7C3AED&currStreakLabel=D8B4FE" width="49%"/>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewTechTips&amp;layout=compact&amp;theme=radical&amp;hide_border=true&amp;bg_color=0D0221&amp;title_color=A78BFA&amp;text_color=D8B4FE" width="45%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewTechTips&layout=compact&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&text_color=D8B4FE" width="45%"/>
 
 </div>
 
@@ -293,7 +293,7 @@ Focused on writing clean, object-oriented code and robust backend architectures,
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AndrewTechTips&amp;theme=react-dark&amp;bg_color=0D0221&amp;color=A78BFA&amp;line=7C3AED&amp;point=D8B4FE&amp;hide_border=true" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AndrewTechTips&theme=react-dark&bg_color=0D0221&color=A78BFA&line=7C3AED&point=D8B4FE&hide_border=true" width="95%"/>
 
 </div>
 
