@@ -3,7 +3,7 @@
   
   <br><br>
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=9575CD&center=true&vCenter=true&width=800&lines=Hi,+I'm+Condrea+Andrei;Full+Stack+Developer;Computer+Science+Student;Building+Resilient+Architectures;Focusing+on+Scalable+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira%20Code&weight=600&size=28&duration=3000&pause=1000&color=9575CD&center=true&vCenter=true&width=800&lines=Hi,%20I'm%20Condrea%20Andrei;Full%20Stack%20Developer;Computer%20Science%20Student;Building%20Resilient%20Architectures;Focusing%20on%20Scalable%20Systems" alt="Typing SVG" />
   
   <br><br>
 
@@ -268,10 +268,7 @@ Dedicated to architecting end-to-end applications, modeling databases, and integ
 <h2 align="center">Contribution Snake</h2>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AndrewTechTips/AndrewTechTips/output/github-contribution-grid-snake-dark.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AndrewTechTips/AndrewTechTips/output/github-contribution-grid-snake.svg">
-  </picture>
+  ![Snake animation](https://raw.githubusercontent.com/AndrewTechTips/AndrewTechTips/output/github-contribution-grid-snake-dark.svg)
 </div>
 
 ---
