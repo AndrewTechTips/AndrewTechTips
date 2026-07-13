@@ -124,7 +124,7 @@ Full Stack Developer and Computer Science Student focused on **resilient archite
 <br/>
 
 <div align="center">
-  <img src="./assets/md_asset1.png" alt="Luxury Booking Engine Dashboard" width="90%" />
+  <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Booking Engine Dashboard" width="90%" style="border-radius: 10px;" />
 </div>
 
 <br/>
@@ -147,7 +147,7 @@ A sophisticated hotel reservation platform designed for a frictionless end-to-en
 <br/>
 
 <div align="center">
-  <img src="./assets/md_asset2.png" alt="Restaurant Menu Application" width="90%" />
+  <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Restaurant Menu Application" width="90%" style="border-radius: 10px;" />
 </div>
 
 <br/>
@@ -170,7 +170,7 @@ A full-featured relational web application tailored for high-efficiency restaura
 <br/>
 
 <div align="center">
-  <img src="./assets/md_asset3.png" alt="Horizon Weather Interface" width="90%" />
+  <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Horizon Weather Interface" width="90%" style="border-radius: 10px;" />
 </div>
 
 <br/>
@@ -193,7 +193,7 @@ A highly responsive forecasting application driven by modular JavaScript and rea
 <br/>
 
 <div align="center">
-  <img src="./assets/md_asset4.png" alt="Student Management System" width="90%" />
+  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Student Management System" width="90%" style="border-radius: 10px;" />
 </div>
 
 <br/>
@@ -216,7 +216,7 @@ A native desktop administration suite engineered for speed and reliability when 
 <br/>
 
 <div align="center">
-  <img src="./assets/md_asset5.png" alt="Thief Detection System Interface" width="90%" />
+  <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Thief Detection System Interface" width="90%" style="border-radius: 10px;" />
 </div>
 
 <br/>
@@ -289,26 +289,6 @@ Focused on writing clean, object-oriented code and robust backend architectures,
 
 ---
 
-## <div align="center">🟣 Contribution Activity</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AndrewTechTips&theme=react-dark&bg_color=0D0221&color=A78BFA&line=7C3AED&point=D8B4FE&hide_border=true" width="95%"/>
-
-</div>
-
----
-
-## <div align="center">🟣 Contribution Snake</div>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/AndrewTechTips/AndrewTechTips/output/github-contribution-grid-snake-dark.svg" width="95%"/>
-
-</div>
-
----
-
 ## <div align="center">🟣 Current Focus</div>
 
 ```yaml
@@ -328,8 +308,25 @@ current_focus:
     - Open-source collaborations
 ```
 
+---
+
+## <div align="center">🟣 Connect With Me</div>
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/condrea.andrey777%40gmail.com-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:condrea.andrey777@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Andrei%20Condrea-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/andrei-condrea-b32148346)
+[![GitHub](https://img.shields.io/badge/AndrewTechTips-1E1033?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AndrewTechTips)
+[![Portfolio](https://img.shields.io/badge/Portfolio%20Site-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://andrewtechtips.github.io/Portfolio-Website/)
+
+</div>
+
+---
+
+<div align="center">
+
 ### *"Built with focus and precision."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:5b21b6,50:2d0a5e,100:0f0524&amp;height=150&amp;section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5b21b6,50:2d0a5e,100:0f0524&height=150&section=footer" width="100%"/>
 
 </div>
