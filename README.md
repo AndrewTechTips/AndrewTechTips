@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,50:2d0a5e,100:5b21b6&height=280&section=header&text=Condrea%20Andrei&fontSize=60&fontColor=D8B4FE&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20and%20Computer%20Science%20Student&descAlignY=58&descAlign=50" width="100%"/>
+<img src="[https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,50:2d0a5e,100:5b21b6&height=280&section=header&text=Condrea%20Andrei&fontSize=60&fontColor=D8B4FE&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20and%20Computer%20Science%20Student&descAlignY=58&descAlign=50](https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,50:2d0a5e,100:5b21b6&height=280&section=header&text=Condrea%20Andrei&fontSize=60&fontColor=D8B4FE&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20and%20Computer%20Science%20Student&descAlignY=58&descAlign=50)" width="100%"/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+Resilient+Architectures;Crafting+Scalable+Systems;Bridging+Logic+and+Elegant+Design;Clean+Code+%7C+Secure+Systems" alt="Typing SVG" />
+<a href="[https://git.io/typing-svg](https://git.io/typing-svg)">
+  <img src="[https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+Resilient+Architectures;Crafting+Scalable+Systems;Bridging+Logic+and+Elegant+Design;Clean+Code+%7C+Secure+Systems](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+Resilient+Architectures;Crafting+Scalable+Systems;Bridging+Logic+and+Elegant+Design;Clean+Code+%7C+Secure+Systems)" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -13,7 +13,7 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://andrewtechtips.github.io/Portfolio-Website/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)]([https://andrewtechtips.github.io/Portfolio-Website/](https://andrewtechtips.github.io/Portfolio-Website/))
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/andrei-condrea-b32148346)
 [![Email](https://img.shields.io/badge/Email-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:condrea.andrey777@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-1E1033?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AndrewTechTips)
@@ -68,7 +68,7 @@ Full Stack Developer and Computer Science Student focused on **resilient archite
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,js,java,html,css" />
+<img src="[https://skillicons.dev/icons?i=python,js,java,html,css](https://skillicons.dev/icons?i=python,js,java,html,css)" />
 
 <sub>Python &nbsp;•&nbsp; JavaScript &nbsp;•&nbsp; Java &nbsp;•&nbsp; HTML/CSS &nbsp;•&nbsp; Assembly (ASM)</sub>
 
@@ -76,7 +76,7 @@ Full Stack Developer and Computer Science Student focused on **resilient archite
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=js,html,css,webpack" />
+<img src="[https://skillicons.dev/icons?i=js,html,css,webpack](https://skillicons.dev/icons?i=js,html,css,webpack)" />
 
 <sub>Vanilla JavaScript &nbsp;•&nbsp; HTML5 &nbsp;•&nbsp; CSS3 &nbsp;•&nbsp; Webpack</sub>
 
@@ -84,7 +84,7 @@ Full Stack Developer and Computer Science Student focused on **resilient archite
 
 **Backend & Databases**
 
-<img src="https://skillicons.dev/icons?i=django,flask,mysql,sqlite" />
+<img src="[https://skillicons.dev/icons?i=django,flask,mysql,sqlite](https://skillicons.dev/icons?i=django,flask,mysql,sqlite)" />
 
 <sub>Django &nbsp;•&nbsp; Flask &nbsp;•&nbsp; MySQL &nbsp;•&nbsp; SQLite &nbsp;•&nbsp; Streamlit</sub>
 
@@ -92,8 +92,8 @@ Full Stack Developer and Computer Science Student focused on **resilient archite
 
 **Cloud, DevOps & Tooling**
 
-<img src="https://skillicons.dev/icons?i=git,jest,opencv,selenium" />
-<img src="https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+<img src="[https://skillicons.dev/icons?i=git,jest,opencv,selenium](https://skillicons.dev/icons?i=git,jest,opencv,selenium)" />
+<img src="[https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white](https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)" />
 
 <sub>Git &nbsp;•&nbsp; Jest & PyTest (Testing) &nbsp;•&nbsp; OpenCV &nbsp;•&nbsp; Selenium</sub>
 
@@ -124,7 +124,7 @@ Full Stack Developer and Computer Science Student focused on **resilient archite
 <br/>
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Booking Engine Dashboard" width="90%" style="border-radius: 10px;" />
+  <img src="[https://img.icons8.com/color/96/000000/5-star-hotel.png](https://img.icons8.com/color/96/000000/5-star-hotel.png)" alt="Hotel Icon" width="70" />
 </div>
 
 <br/>
@@ -147,7 +147,7 @@ A sophisticated hotel reservation platform designed for a frictionless end-to-en
 <br/>
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Restaurant Menu Application" width="90%" style="border-radius: 10px;" />
+  <img src="https://img.icons8.com/color/96/000000/restaurant.png" alt="Restaurant Icon" width="70" />
 </div>
 
 <br/>
@@ -170,7 +170,7 @@ A full-featured relational web application tailored for high-efficiency restaura
 <br/>
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Horizon Weather Interface" width="90%" style="border-radius: 10px;" />
+  <img src="https://img.icons8.com/color/96/000000/partly-cloudy-day--v1.png" alt="Weather Icon" width="70" />
 </div>
 
 <br/>
@@ -193,7 +193,7 @@ A highly responsive forecasting application driven by modular JavaScript and rea
 <br/>
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Student Management System" width="90%" style="border-radius: 10px;" />
+  <img src="[https://img.icons8.com/color/96/000000/student-center.png](https://img.icons8.com/color/96/000000/student-center.png)" alt="Student Icon" width="70" />
 </div>
 
 <br/>
@@ -216,7 +216,7 @@ A native desktop administration suite engineered for speed and reliability when 
 <br/>
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Thief Detection System Interface" width="90%" style="border-radius: 10px;" />
+  <img src="https://img.icons8.com/color/96/000000/spy.png" alt="Security Icon" width="70" />
 </div>
 
 <br/>
@@ -289,10 +289,29 @@ Focused on writing clean, object-oriented code and robust backend architectures,
 
 ---
 
+## <div align="center">🟣 Contribution Activity</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AndrewTechTips&theme=react-dark&bg_color=0D0221&color=A78BFA&line=7C3AED&point=D8B4FE&hide_border=true" width="95%"/>
+
+</div>
+
+---
+
+## <div align="center">🟣 Contribution Snake</div>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/AndrewTechTips/AndrewTechTips/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+
+</div>
+
+---
+
 ## <div align="center">🟣 Current Focus</div>
 
-```yaml
-current_focus:
+<pre><code class="language-yaml">current_focus:
   learning:
     - Expanding backend architecture knowledge
     - Exploring advanced data processing tools
@@ -306,7 +325,7 @@ current_focus:
     - Full Stack Developer roles
     - Software Engineering internships
     - Open-source collaborations
-```
+</code></pre>
 
 ---
 
@@ -327,6 +346,6 @@ current_focus:
 
 ### *"Built with focus and precision."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5b21b6,50:2d0a5e,100:0f0524&height=150&section=footer" width="100%"/>
+<img src="[https://capsule-render.vercel.app/api?type=waving&color=0:5b21b6,50:2d0a5e,100:0f0524&height=150&section=footer](https://capsule-render.vercel.app/api?type=waving&color=0:5b21b6,50:2d0a5e,100:0f0524&height=150&section=footer)" width="100%"/>
 
 </div>
