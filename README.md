@@ -1,283 +1,366 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=7E57C2&height=150&section=header&animation=fadeIn" width="100%" alt="Header Banner" />
-  
-  <br><br>
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira%20Code&weight=600&size=28&duration=3000&pause=1000&color=9575CD&center=true&vCenter=true&width=800&lines=Hi,%20I'm%20Condrea%20Andrei;Full%20Stack%20Developer;Computer%20Science%20Student;Building%20Resilient%20Architectures;Focusing%20on%20Scalable%20Systems" alt="Typing SVG" />
-  
-  <br><br>
 
-  <img src="https://img.shields.io/badge/Computer%20Science-Student-7E57C2?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Academic Badge" />
-  <img src="https://img.shields.io/badge/Location-Constanța,%20Romania-5E35B1?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-  
-  <br><br>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,50:2d0a5e,100:5b21b6&height=280&section=header&text=Condrea%20Andrei&fontSize=60&fontColor=D8B4FE&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%26%20Computer%20Science%20Student&descAlignY=58&descAlign=50" width="100%"/>
 
-  <a href="https://andrewtechtips.github.io/Portfolio-Website/"><img src="https://img.shields.io/badge/Portfolio-Website-311B92?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/andrei-condrea-b32148346"><img src="https://img.shields.io/badge/LinkedIn-Profile-4527A0?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:condrea.andrey777@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-512DA8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/AndrewTechTips"><img src="https://img.shields.io/badge/GitHub-Profile-5E35B1?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+Resilient+Architectures;Crafting+Scalable+Systems;Bridging+Logic+%26+Elegant+Design;Clean+Code+%7C+Secure+Systems" alt="Typing SVG" />
+</a>
 
-  <br><br>
+<br/>
 
-  <img src="https://komarev.com/ghpvc/?username=AndrewTechTips&label=Profile%20Views&color=7E57C2&style=flat-square" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/AndrewTechTips?label=Followers&style=flat-square&color=5E35B1" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/AndrewTechTips?label=Stars&style=flat-square&color=4527A0" alt="Stars" />
+![Computer Science Student](https://img.shields.io/badge/Computer%20Science%20Student-5B21B6?style=flat-square&logo=googlescholar&logoColor=white)
+![Location](https://img.shields.io/badge/Constanța%2C%20Romania-2D0A5E?style=flat-square&logo=googlemaps&logoColor=white)
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://andrewtechtips.github.io/Portfolio-Website/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/andrei-condrea-b32148346)
+[![Email](https://img.shields.io/badge/Email-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:condrea.andrey777@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-1E1033?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AndrewTechTips)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=AndrewTechTips&style=flat-square&color=7c3aed&label=PROFILE+VIEWS)
+![Followers](https://img.shields.io/github/followers/AndrewTechTips?style=flat-square&color=6d28d9&labelColor=1e1033&label=FOLLOWERS)
+![Stars](https://img.shields.io/github/stars/AndrewTechTips?style=flat-square&color=a78bfa&labelColor=1e1033&label=STARS)
+
 </div>
+
+<br/>
 
 ---
 
-<h2 align="center">About</h2>
+## <div align="center">🟣 About Me</div>
 
 <div align="center">
 
-Focusing on resilient architectures, scalable systems, and seamless user interfaces to bridge the gap between complex logic and elegant design. As a Computer Science student and product-minded software engineer, I believe in writing clean, maintainable code and developing secure, high-performance applications. My core expertise lies in robust backend ecosystems, full-stack integration, and algorithmic problem solving.
-
-**Open To:** Full Stack Developer roles, Internships, and Open-source collaborations.
+Full Stack Developer and Computer Science Student focused on **resilient architectures**, **scalable systems**, and **seamless user interfaces** — bridging the gap between complex logic and elegant design. I believe in writing **clean, maintainable code** and developing **secure, high-performance systems**, with a growing emphasis on **AI/ML-driven engineering** and **product-minded full stack development**.
 
 </div>
 
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+**🎯 Focus Areas**
+- Backend Architecture & System Design
+- Full Stack Web Development
+- Applied AI/ML & Numerical Computing
+- Secure, Test-Driven Engineering
+
+</td>
+<td width="50%" valign="top">
+
+**🚀 Open To**
+- Full Stack Developer Roles
+- Software Engineering Internships
+- Open-Source Collaborations
+
+</td>
+</tr>
+</table>
+
 ---
 
-<h2 align="center">Tech Stack</h2>
+## <div align="center">🟣 Tech Stack</div>
 
 <div align="center">
 
-### Languages
-<img src="https://skillicons.dev/icons?i=python,js,java,html,css,wasm&theme=dark" alt="Languages" />
+**Languages**
 
-### Frontend
-<img src="https://skillicons.dev/icons?i=js,html,css,webpack,bootstrap,tailwind&theme=dark" alt="Frontend" />
+![Python](https://skillicons.dev/icons?i=python)
+![JavaScript](https://skillicons.dev/icons?i=js)
+![Java](https://skillicons.dev/icons?i=java)
+![HTML5](https://skillicons.dev/icons?i=html)
+![CSS3](https://skillicons.dev/icons?i=css)
 
-### Backend & Databases
-<img src="https://skillicons.dev/icons?i=django,flask,mysql,sqlite,postgres,nodejs&theme=dark" alt="Backend & Databases" />
+<sub>Python &nbsp;•&nbsp; JavaScript &nbsp;•&nbsp; Java &nbsp;•&nbsp; HTML/CSS &nbsp;•&nbsp; Assembly (ASM)</sub>
 
-### Cloud, DevOps & Tooling
-<img src="https://skillicons.dev/icons?i=git,github,jest,selenium,opencv,linux&theme=dark" alt="Cloud & Tools" />
+<br/><br/>
+
+**Frontend**
+
+![JavaScript](https://skillicons.dev/icons?i=js)
+![HTML5](https://skillicons.dev/icons?i=html)
+![CSS3](https://skillicons.dev/icons?i=css)
+![Webpack](https://skillicons.dev/icons?i=webpack)
+
+<sub>Vanilla JavaScript &nbsp;•&nbsp; HTML5 &nbsp;•&nbsp; CSS3 &nbsp;•&nbsp; Webpack</sub>
+
+<br/><br/>
+
+**Backend & Databases**
+
+![Django](https://skillicons.dev/icons?i=django)
+![Flask](https://skillicons.dev/icons?i=flask)
+![MySQL](https://skillicons.dev/icons?i=mysql)
+![SQLite](https://skillicons.dev/icons?i=sqlite)
+
+<sub>Django &nbsp;•&nbsp; Flask &nbsp;•&nbsp; MySQL &nbsp;•&nbsp; SQLite &nbsp;•&nbsp; Streamlit</sub>
+
+<br/><br/>
+
+**Cloud, DevOps & Tooling**
+
+![Git](https://skillicons.dev/icons?i=git)
+![Jest](https://skillicons.dev/icons?i=jest)
+![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![OpenCV](https://skillicons.dev/icons?i=opencv)
+![Selenium](https://skillicons.dev/icons?i=selenium)
+
+<sub>Git &nbsp;•&nbsp; Jest &amp; PyTest (Testing) &nbsp;•&nbsp; OpenCV &nbsp;•&nbsp; Selenium</sub>
 
 </div>
 
 ---
 
-<h2 align="center">AI, ML & Algorithms Expertise</h2>
+## <div align="center">🟣 AI / ML & Algorithmic Expertise</div>
 
 <div align="center">
 
 | Domain | Proficiency | Details |
-| :--- | :--- | :--- |
-| **Numerical Methods** | Advanced | Euler method, Runge-Kutta (RK4) via SymPy integration |
-| **Data Structures** | Advanced | HashMaps, Binary Search Trees, State Management |
-| **Algorithmic Logic** | Advanced | Pathfinding algorithms, Breadth-First Search (BFS) |
+|:---|:---:|:---|
+| **Numerical Methods** | ⭐⭐⭐⭐☆ | Euler & RK4 methods implemented via SymPy for differential equation solving |
+| **Data Structures** | ⭐⭐⭐⭐⭐ | HashMaps, Binary Search Trees for optimized data retrieval & storage |
+| **Algorithmic Pathfinding** | ⭐⭐⭐⭐☆ | BFS-based traversal and search strategies for graph problems |
+| **Applied Computer Vision** | ⭐⭐⭐☆☆ | Real-time detection systems built with OpenCV |
 
 </div>
 
 ---
 
-<h2 align="center">Featured Projects</h2>
+## <div align="center">🟣 Featured Projects</div>
 
-<details>
-<summary><b>👑 Luxury Booking Engine</b></summary>
-<br>
-<i>Sophisticated hotel booking app handling credit card validation and automated PDF ticket generation.</i>
+<details open>
+<summary><b>🏨 Luxury Booking Engine</b></summary>
+<br/>
 
-| Attribute | Details |
-| :--- | :--- |
-| **Stack** | Python, Streamlit, Pandas |
-| **Scale** | Enterprise Application Architecture |
-| **Performance** | Optimized asynchronous state rendering |
-| **Security** | Secure payment logic and data validation |
-| **Impact** | End-to-end automation of the user booking lifecycle |
-| **Repository** | [AndrewTechTips/Hotel-Booking](https://github.com/AndrewTechTips/Hotel-Booking) |
+Sophisticated hotel booking application handling secure credit card validation and automated PDF ticket generation, built for a seamless end-to-end reservation experience.
 
-**Engineering Overview:**
-Designed a highly resilient backend to process transaction logic seamlessly. Implemented strict data validation protocols to secure client payment states while generating dynamic PDF artifacts on the fly.
-<br>
+| Stack | Scale | Performance | Security | Impact | Repository |
+|:---|:---|:---|:---|:---|:---|
+| Python, Streamlit | Multi-page booking flow | Real-time form validation | Credit card validation logic | Automated ticketing pipeline | [Hotel-Booking](https://github.com/AndrewTechTips/Hotel-Booking) |
+
+Engineered with a focus on data integrity throughout the booking lifecycle, this project combines interactive Streamlit UI components with backend logic for validating payment details and generating downloadable PDF confirmations on demand.
+
 </details>
 
 <details>
 <summary><b>🍽️ Django Restaurant Menu</b></summary>
-<br>
-<i>Web application featuring session-based cart management, QR code generation, and a high-performance admin dashboard.</i>
+<br/>
 
-| Attribute | Details |
-| :--- | :--- |
-| **Stack** | Python, Django, SQLite, HTML/CSS |
-| **Scale** | Full Stack Web Service |
-| **Performance** | Efficient ORM queries and session caching |
-| **Security** | Django native CSRF/XSS protection |
-| **Impact** | Digitized restaurant operations and streamlined ordering |
-| **Repository** | [AndrewTechTips/Django-Restaurant-Menu](https://github.com/AndrewTechTips/Django-Restaurant-Menu) |
+Full-featured web application for restaurant menu management, featuring session-based cart management, dynamic QR code generation, and a high-performance admin dashboard.
 
-**Engineering Overview:**
-Engineered a comprehensive session-based architecture for real-time cart handling. Integrated QR code utility to map physical interactions to the digital ecosystem, backed by a robust administrative control panel.
-<br>
+| Stack | Scale | Performance | Security | Impact | Repository |
+|:---|:---|:---|:---|:---|:---|
+| Python, Django | Multi-model relational schema | Optimized admin queries | Django session security | Streamlined ordering experience | [Django-Restaurant-Menu](https://github.com/AndrewTechTips/Django-Restaurant-Menu) |
+
+Built on Django's ORM and templating engine, this application demonstrates session-persistent cart state, on-the-fly QR code generation for contactless menus, and a tuned admin dashboard for efficient restaurant operations.
+
 </details>
 
 <details>
-<summary><b>☁️ Horizon Weather</b></summary>
-<br>
-<i>Responsive, async-driven application integrated with the Visual Crossing API, featuring geolocation support.</i>
+<summary><b>🌦️ Horizon Weather</b></summary>
+<br/>
 
-| Attribute | Details |
-| :--- | :--- |
-| **Stack** | JavaScript, Webpack, HTML5, CSS3 |
-| **Scale** | Global API Integration |
-| **Performance** | Optimized asynchronous fetch pipelines |
-| **Security** | Secure API key management and sanitized inputs |
-| **Impact** | Delivers real-time meteorological data with high accuracy |
-| **Repository** | [AndrewTechTips/Weather-App](https://github.com/AndrewTechTips/Weather-App) |
+Responsive, async-driven weather application integrated with the Visual Crossing API, featuring geolocation support for instant local forecasts.
 
-**Engineering Overview:**
-Leveraged modern ES6+ async/await paradigms to consume the Visual Crossing API. Constructed an automated build pipeline via Webpack to ensure minified, highly performant production code deployment.
-<br>
+| Stack | Scale | Performance | Security | Impact | Repository |
+|:---|:---|:---|:---|:---|:---|
+| JavaScript, Webpack | Modular async architecture | Non-blocking API calls | Secure API key handling | Real-time geolocation forecasts | [Weather-App](https://github.com/AndrewTechTips/Weather-App) |
+
+Structured around modern asynchronous JavaScript patterns and bundled with Webpack, Horizon Weather delivers fast, responsive forecasts driven by live geolocation and third-party API integration.
+
 </details>
 
 <details>
 <summary><b>🎓 Student Management System</b></summary>
-<br>
-<i>Robust desktop application for student record management with seamless CRUD operations and regex input validation.</i>
+<br/>
 
-| Attribute | Details |
-| :--- | :--- |
-| **Stack** | Python, PyQt6, MySQL |
-| **Scale** | Enterprise Desktop Client |
-| **Performance** | Low-latency SQL transactions |
-| **Security** | Strict regex data sanitization preventing SQLi |
-| **Impact** | Digitized and accelerated academic record keeping |
-| **Repository** | [AndrewTechTips/Student-Management-System](https://github.com/AndrewTechTips/Student-Management-System) |
+Robust desktop application for student record management, supporting seamless CRUD operations backed by strict regex-based input validation.
 
-**Engineering Overview:**
-Architected a sleek graphical user interface utilizing PyQt6 integrated with a structured MySQL database. Designed intricate CRUD operations protected by rigorous regex patterns to guarantee database integrity.
-<br>
+| Stack | Scale | Performance | Security | Impact | Repository |
+|:---|:---|:---|:---|:---|:---|
+| Python, PyQt6, MySQL | Full CRUD desktop suite | Optimized MySQL queries | Regex input validation | Reliable record management | [Student-Management-System](https://github.com/AndrewTechTips/Student-Management-System) |
+
+A PyQt6-powered desktop application backed by MySQL, engineered for data integrity through rigorous regex validation and a clean, intuitive administrative interface.
+
 </details>
 
 <details>
-<summary><b>🛡️ Thief Detection Notifier</b></summary>
-<br>
-<i>Automated, real-time motion detection system using background threading to instantly email intruder snapshots.</i>
+<summary><b>🕵️ Thief Detection Notifier</b></summary>
+<br/>
 
-| Attribute | Details |
-| :--- | :--- |
-| **Stack** | Python, OpenCV, SMTPLib |
-| **Scale** | Local Security Microservice |
-| **Performance** | Multi-threaded frame processing |
-| **Security** | Encrypted SMTP payload delivery |
-| **Impact** | Autonomous surveillance and real-time alerts |
-| **Repository** | [AndrewTechTips/Thief-Detection-Notifier](https://github.com/AndrewTechTips/Thief-Detection-Notifier) |
+Automated, real-time motion detection system using background threading to instantly capture and email intruder snapshots.
 
-**Engineering Overview:**
-Developed an intelligent computer vision application utilizing OpenCV to compute frame deltas. Implemented concurrent threading to dispatch email notifications without interrupting the primary video capture loop.
-<br>
+| Stack | Scale | Performance | Security | Impact | Repository |
+|:---|:---|:---|:---|:---|:---|
+| Python, OpenCV | Real-time video processing | Multi-threaded background detection | Automated secure email alerts | Instant intrusion notification | [Thief-Detection-Notifier](https://github.com/AndrewTechTips/Thief-Detection-Notifier) |
+
+Leverages OpenCV for real-time frame analysis and background threading to detect motion without blocking the main process, instantly emailing snapshots of intruders as they're detected.
+
 </details>
 
 ---
 
-<h2 align="center">Experience</h2>
+## <div align="center">🟣 Experience</div>
 
 <div align="center">
 
-### Full Stack Developer & Computer Science Student | Independent & Academic Projects
-**September 2024 - Present**
+### Computer Science Student
+**Academic Studies**
+<br/>
+<sub>Ongoing</sub>
+
 </div>
 
-**Professional Overview:**
-Dedicated to architecting end-to-end applications, modeling databases, and integrating sophisticated algorithms. Focused on establishing resilient backend architectures while maintaining elegant, user-centric frontend experiences.
+Focused on writing clean, object-oriented code and robust backend architectures, applying core computer science principles to real-world, production-style projects.
 
-*   Architected full-stack web applications utilizing Python ecosystems (Django, Flask) and JavaScript architectures.
-*   Engineered secure data processing pipelines, implementing regex validations and algorithmic optimization.
-*   Designed and maintained relational databases (MySQL, SQLite) with optimized querying and session state management.
-*   Automated CI/CD workflows and local deployment pipelines utilizing Git and Webpack.
+**Scope of Work:**
+- Designing and implementing object-oriented solutions across multiple languages
+- Building robust backend architectures with an emphasis on maintainability
+- Applying data structures, algorithms, and numerical methods to practical problems
+- Developing full-stack applications spanning frontend, backend, and database layers
 
-`<System Architecture>` `<Python>` `<JavaScript>` `<SQL>` `<Object-Oriented Design>` `<UI/UX>`
+`Python` `JavaScript` `Java` `Django` `Flask` `MySQL` `Object-Oriented Design`
 
 ---
 
-<h2 align="center">Achievements</h2>
+## <div align="center">🟣 Achievements</div>
 
 <div align="center">
 
 | Recognition | Details |
-| :--- | :--- |
-| **Harvard CS50P Completion** | Mastered advanced Python programming paradigms, OOP, and algorithm design |
-| **The Odin Project Curriculum** | Successfully engineered multiple core web development and RESTful architecture projects |
-| **Cybersecurity Operations** | Completed rigorous RED and BLUE team network security practice modules |
-| **System Refactoring** | Optimized legacy motion-tracking systems using advanced OpenCV delta computations |
+|:---|:---|
+| 🏆 Full Stack Project Portfolio | Delivered 5+ end-to-end applications spanning web, desktop, and automation domains |
+| 🏆 Applied AI/ML Foundations | Implemented numerical methods and pathfinding algorithms in production-style projects |
+| 🏆 Security-Conscious Engineering | Built systems incorporating input validation, secure sessions, and automated alerting |
+| 🏆 Continuous Certification | Actively pursuing multi-provider technical certifications (AWS, Oracle, NPTEL, Cisco) |
 
 </div>
 
 ---
 
-<h2 align="center">Certifications</h2>
+## <div align="center">🟣 Certifications</div>
 
 <div align="center">
 
-### AWS
-<img src="https://img.shields.io/badge/AWS-Cloud_Practitioner-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+**AWS**
 
-### Oracle
-<img src="https://img.shields.io/badge/Oracle-Java_Foundations-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
 
-### NPTEL
-<img src="https://img.shields.io/badge/NPTEL-Computer_Science-FF9900?style=for-the-badge&logo=nptel&logoColor=white" alt="NPTEL" />
+**Oracle**
 
-### Cisco
-<img src="https://img.shields.io/badge/Cisco-Networking_Academy-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco" />
+![Oracle](https://img.shields.io/badge/Oracle-6D28D9?style=for-the-badge&logo=oracle&logoColor=white)
+
+**NPTEL**
+
+![NPTEL](https://img.shields.io/badge/NPTEL-4C1D95?style=for-the-badge&logo=googlescholar&logoColor=white)
+
+**Cisco**
+
+![Cisco](https://img.shields.io/badge/Cisco-1E1033?style=for-the-badge&logo=cisco&logoColor=white)
 
 </div>
 
 ---
 
-<h2 align="center">Coding Profiles</h2>
+## <div align="center">🟣 Coding Profiles</div>
 
 <div align="center">
-  <a href="#"><img src="https://img.shields.io/badge/LeetCode-Premium_Solver-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/GeeksforGeeks-Data_Structures-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/HackerRank-Problem_Solving-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/CodeChef-Competitive_Programming-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" /></a>
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-5B21B6?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/AndrewTechTips)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2D0A5E?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/AndrewTechTips)
+[![HackerRank](https://img.shields.io/badge/HackerRank-6D28D9?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/AndrewTechTips)
+[![CodeChef](https://img.shields.io/badge/CodeChef-4C1D95?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/AndrewTechTips)
+
 </div>
 
 ---
 
-<h2 align="center">GitHub Analytics</h2>
+## <div align="center">🟣 GitHub Analytics</div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AndrewTechTips&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7E57C2&icon_color=9575CD&text_color=C9D1D9" alt="GitHub Stats" />
-  <br><br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AndrewTechTips&theme=tokyonight&hide_border=true&background=0D1117&ring=7E57C2&fire=9575CD&currStreakLabel=C9D1D9" alt="GitHub Streak" />
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewTechTips&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7E57C2&text_color=C9D1D9" alt="Top Languages" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=AndrewTechTips&show_icons=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&icon_color=7C3AED&text_color=D8B4FE&ring_color=6D28D9" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AndrewTechTips&theme=radical&hide_border=true&background=0D0221&stroke=6D28D9&ring=A78BFA&fire=7C3AED&currStreakLabel=D8B4FE" width="49%"/>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewTechTips&layout=compact&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&text_color=D8B4FE" width="45%"/>
+
 </div>
 
 ---
 
-<h2 align="center">GitHub Trophies</h2>
+## <div align="center">🟣 GitHub Trophies</div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AndrewTechTips&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15&column=7" alt="GitHub Trophies" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=AndrewTechTips&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1" width="90%"/>
+
 </div>
 
 ---
 
-<h2 align="center">Contribution Activity</h2>
+## <div align="center">🟣 Contribution Activity</div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AndrewTechTips&bg_color=0D1117&color=7E57C2&line=9575CD&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AndrewTechTips&theme=react-dark&bg_color=0D0221&color=A78BFA&line=7C3AED&point=D8B4FE&hide_border=true" width="95%"/>
+
 </div>
 
 ---
 
-<h2 align="center">Contribution Snake</h2>
+## <div align="center">🟣 Contribution Snake</div>
 
 <div align="center">
-  ![Snake animation](https://raw.githubusercontent.com/AndrewTechTips/AndrewTechTips/output/github-contribution-grid-snake-dark.svg)
+
+<img src="https://raw.githubusercontent.com/AndrewTechTips/AndrewTechTips/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+
 </div>
 
 ---
 
-<h2 align="center">Current Focus</h2>
+## <div align="center">🟣 Current Focus</div>
 
 ```yaml
-Current_Status:
-  Learning: "Expanding backend architecture and exploring advanced data processing tools."
-  Building: "Full-stack scalable applications and Python-based automation engines."
-  Exploring: "Enterprise design patterns and microservices deployments."
-  Open_To: ["Full Stack Developer roles", "Internships", "Open-source collaborations"]
+current_focus:
+  learning:
+    - Expanding backend architecture knowledge
+    - Exploring advanced data processing tools
+  building:
+    - Full-stack scalable applications
+    - Python-based automation engines
+  exploring:
+    - Applied AI/ML techniques
+    - Cloud-native deployment patterns
+  open_to:
+    - Full Stack Developer roles
+    - Software Engineering internships
+    - Open-source collaborations
+```
+
+---
+
+## <div align="center">🟣 Connect With Me</div>
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/condrea.andrey777%40gmail.com-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:condrea.andrey777@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Andrei%20Condrea-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/andrei-condrea-b32148346)
+[![GitHub](https://img.shields.io/badge/AndrewTechTips-1E1033?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AndrewTechTips)
+[![Portfolio](https://img.shields.io/badge/Portfolio%20Site-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://andrewtechtips.github.io/Portfolio-Website/)
+
+</div>
+
+---
+
+<div align="center">
+
+### *"Built with focus and precision."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5b21b6,50:2d0a5e,100:0f0524&height=150&section=footer"/>
+
+</div>
