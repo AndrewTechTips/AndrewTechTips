@@ -143,6 +143,32 @@ A premium dark-mode barbershop site built to production standard from scratch: s
 [Live →](https://andrewtechtips.github.io/cxr-barbershop/)
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="assets/hotel.png" alt="Lux Booking Engine — property search" width="100%" />
+
+**[Lux Booking Engine](https://github.com/AndrewTechTips/Hotel-Booking)**
+
+A booking flow carried end to end: filter properties by location, guests and rating, validate the payment card before anything is committed, add spa upgrades, and leave with a generated PDF reservation ticket. Hosted on Streamlit's free tier, so the demo sleeps when nobody has used it — one click wakes it.
+
+<sub>`Python` `Streamlit` `PDF generation`</sub>
+
+[Live →](https://lux-booking.streamlit.app/)
+</td>
+<td width="50%" valign="top">
+
+<img src="assets/weather.png" alt="Weather app — current conditions and six-day outlook" width="100%" />
+
+**[Weather](https://github.com/AndrewTechTips/Weather-App)**
+
+A weather client on the Visual Crossing API, written to practise `async/await`, ES modules and a real Webpack workflow rather than to look busy: current conditions, sunrise and UV, and a six-day outlook — with geolocation resolving where you are on load, so the first view needs no typing.
+
+<sub>`JavaScript` `Webpack` `REST API`</sub>
+
+[Live →](https://andrewtechtips.github.io/Weather-App/)
+</td>
+</tr>
 </table>
 
 | Project | What it is | Built with |
