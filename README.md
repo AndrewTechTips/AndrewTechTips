@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
-  <img alt="Andrei Condrea — full-stack developer, Constanța, Romania" src="assets/header-dark.svg" width="100%" />
+  <img alt="Andrei Condrea, full-stack developer, Constanța, Romania" src="assets/header-dark.svg" width="100%" />
 </picture>
 
 <br />
@@ -14,227 +14,193 @@
 
 <br />
 
-I'm a computer science student in Constanța, Romania, and I build full-stack web
-applications end to end — backend, frontend, database, deployment. Working alone means
-I've had to learn the unglamorous half too: migrations, CI, rate limits, and what a
-service does at three in the morning when a third-party API returns a 504 and nobody is
-watching.
+I'm Andrei, a computer science student in Constanța, Romania. I build web apps on my own,
+from the database to the screen, and then I keep them running. That second part taught me
+more than the first: migrations, CI, deploys, and what a service should do when an API it
+depends on starts timing out at three in the morning.
 
-Two habits I'd want you to judge me on. **Decisions get written down with what they
-cost** — my larger projects carry architecture decision records that say what would
-change my mind, which is what makes something a decision instead of a preference. And
-**every claim below is checkable by opening the repository.** Where I have a number, I
-measured it.
+I like to measure before I decide. My bigger projects keep a written log of their design
+decisions and what each one cost. When I give a number on this page, I measured it, and
+you can check it in the repository.
 
-**Open to** junior full-stack / backend roles and software engineering internships.
+**Looking for** a junior full-stack or backend role, or a software engineering internship.
 
 <br />
 
----
+## Featured projects
 
-## Selected work
+### 📷 IoT Vision Hub
 
-### Iron Log — photo-to-macros nutrition tracking
+**A home security hub for the cameras you already own.**
 
-<table>
-<tr>
-<td width="235" valign="top">
-  <img src="assets/ironlog.png" alt="Iron Log sign-in screen" width="215" />
-</td>
-<td valign="top">
-Point a camera at a plate and get calories, protein, carbs, fats, fibre, sugar and sodium back — **per ingredient**, not one number for the whole meal. No database to search through, no barcode needed. FastAPI on an always-on VPS behind Traefik, a vanilla-JS installable PWA on GitHub Pages, Supabase Postgres underneath.
+<a href="https://andrewtechtips.github.io/iot-vision-hub/"><img src="assets/iot-vision-hub.webp" width="100%" alt="The IoT Vision Hub dashboard: four live cameras, people boxed in red with their scores, and alerts sliding in for someone lingering at the front door" /></a>
 
-**The most useful thing I did here was delete a feature I had already built.** Every ingredient used to be looked up against USDA and Open Food Facts before I trusted the model's own estimate — which sounds obviously correct, and measured out wrong. A lexical title match priced Romanian *telemea* cheese off a USDA row called `Bread, cheese`, and 200g of grilled pork off a crowdsourced label claiming 60g of protein per 100g. Over 20 real descriptions: **median calorie error 16.5% with the database, 2.6% without it.** The layer is still in the codebase behind a flag, because what justifies the default is the measurement, not my opinion.
+It started as a 160-line OpenCV script that emailed me a photo whenever my webcam saw
+movement. It mostly worked. One person walking past sent five emails, and every sunset
+counted as movement.
 
-`Python` `FastAPI` `PostgreSQL` `Supabase` `Docker` `Traefik` `Vite` `PWA`
+The rebuild takes any number of webcams, RTSP cameras or video files. A YOLOX model running
+on the hub itself decides whether the motion is a person, a tracker follows them across the
+frame, and if someone stands at your door longer than you've allowed, your phone gets a
+notification with the clip. Nothing leaves your network unless you want alerts outside it.
 
-**[Repository →](https://github.com/AndrewTechTips/calorie-tracker)** · **[Live →](https://andrewtechtips.github.io/calorie-tracker/)**
-</td>
-</tr>
-</table>
+- A person check takes about 0.3 s of a CPU core, which would freeze a live camera. So all
+  cameras share one background thread for the model, and a tracker that costs under 10 µs a
+  frame covers the time in between.
+- Alerts are saved to the database before they're sent and retried across restarts: web push,
+  email, Telegram or a signed webhook. A covered or turned-away camera raises its own alert.
+- The live demo is the real dashboard. On every push, CI runs four real video clips through
+  the actual detection pipeline, records what it found, and the page replays that recording
+  in your browser.
 
-<sub>285 commits · ~700 tests · 72 API endpoints · zero runtime JavaScript dependencies · CI runs pytest, then deploys over SSH on green</sub>
+<sub>FastAPI · PostgreSQL · OpenCV · ONNX Runtime · vanilla JS PWA · one Docker image for amd64 and arm64, Raspberry Pi included · 1,000+ tests at 99% coverage</sub>
 
-The AI pipeline is split by whether anything downstream does arithmetic with the output.
-Anything that becomes a number the user sees goes to the paid model; prose and
-suggestions run on a free tier and cost nothing:
-
-```mermaid
-flowchart LR
-    P["Photo or description"] --> S1["Gemini 3.8 Flash<br/>identify · weigh · price<br/>in one call"]
-    S1 -.->|"unparseable answer"| RT["retry once,<br/>larger token budget"]
-    S1 -.->|"Google-side outage"| FB["Mistral fallback<br/>tagged, and the user<br/>is told to double-check"]
-    S1 --> CL["clamp + Atwater<br/>consistency check"]
-    CL --> DB[("Supabase<br/>Postgres")]
-    CH["Coach chat · meal ideas · weekly recap"] --> FT["Groq, then Mistral<br/>free tier — $0.00"]
-```
-
-Truncated responses were costing real money before I measured them: hidden reasoning
-tokens draw from the same budget as the visible answer, so **43% of first attempts were
-being cut off, billed in full, and retried.** Sizing the reserve from 33 recorded calls
-instead of one took truncation to 0% and cut the mean cost per scan from $0.0144 to
-$0.0088.
+**[Live demo →](https://andrewtechtips.github.io/iot-vision-hub/)** &nbsp;·&nbsp; **[Code →](https://github.com/AndrewTechTips/iot-vision-hub)**
 
 <br />
 
-### Commons — a small public social feed
+### 🥗 Iron Log
 
-<div align="center">
-  <img src="assets/commons.png" alt="The Commons feed, dark theme" width="92%" />
-</div>
+**Take a photo of your plate, get the calories and macros for each ingredient.**
 
-Anyone can read the feed; you need an account to post or upvote. **FastAPI + PostgreSQL
-17** behind a hand-written frontend with no framework, no bundler and no build step —
-type-checked anyway, through JSDoc and `tsc --noEmit`.
+<a href="https://andrewtechtips.github.io/calorie-tracker/"><img src="assets/ironlog.jpg" width="100%" alt="Iron Log on three phones: the daily calorie ring with protein, carbs, fat and fibre bars; a logged meal broken down by ingredient; and a month of progress with 26 of 30 days on track" /></a>
 
-The part I'd point at: GitHub Pages serves static files and has nowhere to run FastAPI,
-so rather than publish a link that opens on *"Can't reach the server"*, the published
-build reimplements the API in the browser. **The end-to-end suite then runs the same
-specs against both implementations**, so the site people click and the API the project
-ships cannot quietly drift apart.
+Most calorie trackers make you search a database for every item on the plate, which is why
+people give up after a week. Iron Log sends the photo to one model call that names each
+ingredient, estimates its weight and returns calories, protein, carbs, fat, fibre, sugar and
+sodium. Plain arithmetic then checks the answer for numbers no real food could have.
 
-Some things I got wrong first, and what fixed them:
+The most useful thing I did here was switch off a feature I had already built. Every
+ingredient used to be matched against USDA and Open Food Facts before I trusted the model,
+which sounds like the safe choice. In practice a text match priced Romanian *telemea* cheese
+off a USDA entry called "Bread, cheese". On 20 real meals the median calorie error was 16.5%
+with the lookup and 2.6% without it, so the lookup now sits behind a flag.
 
-- The feed served **unpublished drafts to everybody** while the UI politely labelled them
-  "Draft". Visibility is now an access rule — *published, or yours* — and someone else's
-  draft answers `404`, not `403`, because a `403` would confirm it exists.
-- **Login returned early for an unknown email**, skipping the bcrypt round a wrong
-  password paid for. About 100ms of difference, which told you which addresses had
-  accounts whatever the response body said. The miss path now verifies against a fixed
-  dummy hash.
-- The refresh token moved out of `localStorage` into an **`httpOnly` cookie** with
-  rotation and reuse detection — so an XSS bug can act as you while the tab is open, and
-  can't walk away with the session.
+I also found that 43% of first attempts were being cut off and billed anyway, because the
+model's hidden reasoning shares a token budget with the answer. Sizing that budget from 33
+recorded calls took cut-offs to zero and the cost per scan from $0.0144 to $0.0088.
 
-`Python` `FastAPI` `SQLAlchemy 2.0` `PostgreSQL` `Alembic` `JWT` `Playwright` `Docker`
+<sub>FastAPI on a VPS behind Traefik · Supabase Postgres · installable PWA with zero runtime JS dependencies · ~700 tests · deploys over SSH when CI is green</sub>
 
-<sub>231 pytest tests at 97% coverage · 338 Playwright tests run against two API implementations · `mypy --strict`, `black`, `pip-audit`, Lighthouse and axe in CI · 6 architecture decision records</sub>
-
-**[Repository →](https://github.com/AndrewTechTips/social-feed-application)** · **[Live demo →](https://andrewtechtips.github.io/social-feed-application/)** · **[Decisions →](https://github.com/AndrewTechTips/social-feed-application/tree/main/docs/adr)**
+**[Live app →](https://andrewtechtips.github.io/calorie-tracker/)** &nbsp;·&nbsp; **[Code →](https://github.com/AndrewTechTips/calorie-tracker)**
 
 <br />
 
-### Also worth a look
+### 💬 Commons
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**A small public social feed, with a demo that can't drift from the real API.**
 
-<img src="assets/portfolio.jpg" alt="Portfolio site — 3D bronze horse hero" width="100%" />
+<a href="https://andrewtechtips.github.io/social-feed-application/"><img src="assets/commons.png" width="100%" alt="The Commons feed in the dark theme" /></a>
 
-**[Portfolio — WebGL hero](https://github.com/AndrewTechTips/Portfolio-Website)**
+Anyone can read the feed, and an account lets you post, comment and upvote. The backend is
+FastAPI with PostgreSQL 17. The frontend is plain JavaScript with no framework and no build
+step, type-checked anyway through JSDoc.
 
-A scroll-driven 360° camera orbit around a bronze horse, a hand-written GLSL wave shader, and a procedural spark system — which then *settles* into a blurred backdrop while a normal, filterable project grid scrolls over it. Three.js is the only dependency, and it's vendored rather than pulled from a CDN.
+GitHub Pages can't run FastAPI, and I didn't want the demo link to open on "can't reach the
+server". So the published build answers its own API calls inside the browser, and the same
+338 Playwright tests run against that version and against the real backend.
 
-<sub>`JavaScript` `Three.js` `GLSL` — no framework, no build step</sub>
+Some things I got wrong the first time:
 
-[Live →](https://andrewtechtips.github.io/Portfolio-Website/)
-</td>
-<td width="50%" valign="top">
+- The feed sent unpublished drafts to everyone and the UI just labelled them "Draft". Now the
+  query only returns posts that are published or yours, and someone else's draft is a `404`,
+  since a `403` would confirm it exists.
+- Login answered about 100 ms faster for an email with no account, because it skipped the
+  password hash. That was enough to tell who had signed up. The miss path now checks a dummy
+  hash too.
+- The refresh token used to live in `localStorage`. It's now an `httpOnly` cookie that
+  rotates, so a script injected into the page can't walk away with the session.
 
-<img src="assets/barbershop.png" alt="Ace Barbers landing page" width="100%" />
+<sub>FastAPI · SQLAlchemy 2 · PostgreSQL · Alembic · JWT · Playwright · Docker · 231 backend tests at 97% coverage · mypy --strict · 6 architecture decision records</sub>
 
-**[Ace Barbers — client-style landing page](https://github.com/AndrewTechTips/cxr-barbershop)**
-
-A premium dark-mode barbershop site built to production standard from scratch: scroll-triggered reveals on `IntersectionObserver`, GPU-composited effects, and a custom bilingual (RO/EN) translation engine that swaps every string instantly and remembers the choice.
-
-<sub>`HTML` `CSS` `JavaScript` — hand-rolled, zero libraries</sub>
-
-[Live →](https://andrewtechtips.github.io/cxr-barbershop/)
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="assets/hotel.png" alt="Lux Booking Engine — property search" width="100%" />
-
-**[Lux Booking Engine](https://github.com/AndrewTechTips/Hotel-Booking)**
-
-A booking flow carried end to end: filter properties by location, guests and rating, validate the payment card before anything is committed, add spa upgrades, and leave with a generated PDF reservation ticket. Hosted on Streamlit's free tier, so the demo sleeps when nobody has used it — one click wakes it.
-
-<sub>`Python` `Streamlit` `PDF generation`</sub>
-
-[Live →](https://lux-booking.streamlit.app/)
-</td>
-<td width="50%" valign="top">
-
-<img src="assets/weather.png" alt="Weather app — current conditions and six-day outlook" width="100%" />
-
-**[Weather](https://github.com/AndrewTechTips/Weather-App)**
-
-A weather client on the Visual Crossing API, written to practise `async/await`, ES modules and a real Webpack workflow rather than to look busy: current conditions, sunrise and UV, and a six-day outlook — with geolocation resolving where you are on load, so the first view needs no typing.
-
-<sub>`JavaScript` `Webpack` `REST API`</sub>
-
-[Live →](https://andrewtechtips.github.io/Weather-App/)
-</td>
-</tr>
-</table>
-
-| Project | What it is | Built with |
-| :--- | :--- | :--- |
-| **[ODE Solver](https://github.com/AndrewTechTips/Project_Calcul_Numeric)** | Solves `y' = f(x, y)` by Euler, Heun and RK4, animates the solution step by step, and — when a closed form exists — derives it symbolically and plots the error against each approximation | `Python` `Streamlit` `SymPy` `Plotly` |
-| **[Student Management System](https://github.com/AndrewTechTips/Student-Management-System)** | Desktop CRUD over student records: live filtering as you type, CSV export, regex validation before any write, credentials out of a `.env` rather than the source | `Python` `PyQt6` `MySQL` |
-| **[Climate Data API](https://github.com/AndrewTechTips/European-Climate-Archive-API)** | A REST API over real ECA&D station records — by date, by station, or by year — with a self-documenting index page | `Python` `Flask` `pandas` |
-| **[Thief Detection Notifier](https://github.com/AndrewTechTips/Thief-Detection-Notifier)** | Frame-delta motion detection that captures the intruder and emails the frame from a background thread, so the video pipeline never drops a frame waiting on SMTP | `Python` `OpenCV` |
-| **[Django Restaurant Menu](https://github.com/AndrewTechTips/Django-Restaurant-Menu)** | Contactless ordering: a session-backed cart that never touches the database for guests, plus generated per-table QR codes | `Python` `Django` |
+**[Live demo →](https://andrewtechtips.github.io/social-feed-application/)** &nbsp;·&nbsp; **[Code →](https://github.com/AndrewTechTips/social-feed-application)** &nbsp;·&nbsp; **[Design decisions →](https://github.com/AndrewTechTips/social-feed-application/tree/main/docs/adr)**
 
 <br />
 
----
+## More projects
 
-## What I actually work with
+<p align="center">
+  <a href="https://github.com/AndrewTechTips/isla-blanca"><img src="assets/isla-blanca.jpg" width="32%" alt="Isla Blanca home page" /></a>
+  <a href="https://github.com/AndrewTechTips/Portfolio-Website"><img src="assets/portfolio.jpg" width="32%" alt="Portfolio site with the bronze horse hero" /></a>
+  <a href="https://github.com/AndrewTechTips/cxr-barbershop"><img src="assets/barbershop.png" width="32%" alt="Ace Barbers landing page" /></a>
+</p>
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=py,js,fastapi,django,flask,postgres,supabase,docker,githubactions,vite,threejs,git&perline=12" alt="Python, JavaScript, FastAPI, Django, Flask, PostgreSQL, Supabase, Docker, GitHub Actions, Vite, Three.js, Git" />
-</div>
+**[Isla Blanca](https://github.com/AndrewTechTips/isla-blanca)** &nbsp;·&nbsp; [live site](https://andrewtechtips.github.io/isla-blanca/)<br />
+Booking site for a small luxury resort in Ibiza, with live availability, extras priced as you
+add them, a 360° villa tour and a staff dashboard. PostgreSQL itself refuses overlapping stays,
+so two guests can't both book the same night.<br />
+<sub>React · TypeScript · FastAPI · PostgreSQL</sub>
 
-| | |
-| :--- | :--- |
-| **Languages** | Python · JavaScript (ES modules) · SQL · HTML/CSS |
-| **Backend** | FastAPI · Django · Flask · SQLAlchemy 2.0 · Alembic · Pydantic · JWT auth |
-| **Data** | PostgreSQL · Supabase · MySQL · SQLite · pandas |
-| **Frontend** | Vanilla ES modules · Vite · Webpack · Three.js + GLSL · PWA & service workers · CSS design tokens |
-| **Testing** | pytest · Playwright · Jest · `mypy --strict` · axe · Lighthouse |
-| **Infrastructure** | Docker & Compose · Traefik · GitHub Actions · Linux VPS · GitHub Pages |
-| **Also used** | OpenCV · Selenium · PyQt6 · Streamlit · Plotly · SymPy |
+**[Portfolio](https://github.com/AndrewTechTips/Portfolio-Website)** &nbsp;·&nbsp; [live site](https://andrewtechtips.github.io/Portfolio-Website/)<br />
+A scroll-driven camera orbit around a bronze horse, with a GLSL shader I wrote by hand, that
+settles into a blurred backdrop behind the project grid. Three.js is the only dependency.<br />
+<sub>JavaScript · Three.js · GLSL</sub>
 
-<sub>Java and x86 assembly come from university coursework; that code sits in private repositories, so I've left it off the list above rather than claim it here.</sub>
+**[Ace Barbers](https://github.com/AndrewTechTips/cxr-barbershop)** &nbsp;·&nbsp; [live site](https://andrewtechtips.github.io/cxr-barbershop/)<br />
+A dark landing page for a barbershop, built by hand, with scroll reveals and a small translation
+engine that switches the whole page between Romanian and English and remembers your choice.<br />
+<sub>HTML · CSS · JavaScript</sub>
 
-<br />
-
----
-
-## A note on how I build
-
-I default to **no framework and no build step** until something earns one. That isn't
-minimalism for its own sake — it's that a dependency is a thing you carry, and on
-projects this size I'd rather carry a hundred lines I can read. Where a build step does
-pay for itself, it goes in: Iron Log uses Vite, purely so content-hashed filenames
-replace a cache-busting convention I was maintaining by hand and getting wrong.
-
-The same instinct shows up in testing. I don't chase coverage numbers; I write tests
-around the logic that would be **expensive to get wrong and invisible when it breaks** —
-quota resets, retention cutoffs, streak arithmetic, notification eligibility, whether a
-background sweep survives the database blinking.
+<details>
+<summary><b>Archive</b>: smaller projects, from coursework to the first page I ever built</summary>
 
 <br />
 
----
+**Backend and APIs**
+
+- [Django Restaurant Menu](https://github.com/AndrewTechTips/Django-Restaurant-Menu): contactless ordering, with a cart that stays in the session for guests and a QR code for every table
+- [European Climate Archive API](https://github.com/AndrewTechTips/European-Climate-Archive-API): Flask REST API over real weather-station records, by date, station or year
+- [Django Job Portal](https://github.com/AndrewTechTips/Django-Form): job applications with confirmation emails and CSV export from the admin
+- [Flask Job Form](https://github.com/AndrewTechTips/Flask-Form): the same idea in Flask, with an app factory, blueprints and SQLAlchemy
+- [Scrapify](https://github.com/AndrewTechTips/Scrapify): watches a page for new tour dates and emails you once per date, with SQLite to remember what it already sent
+
+**Python apps and tools**
+
+- [ODE Solver](https://github.com/AndrewTechTips/Project_Calcul_Numeric) ([live](https://numerical-flow.streamlit.app/)): Euler, Heun and RK4 side by side, animated step by step and compared with the exact solution from SymPy
+- [Browser Automation](https://github.com/AndrewTechTips/Browser-Automation): a Tkinter app that drives Selenium through login, forms and downloads without freezing
+- [Student Management System](https://github.com/AndrewTechTips/Student-Management-System): PyQt6 and MySQL desktop app with live search and validation before every write
+- [Lux Booking Engine](https://github.com/AndrewTechTips/Hotel-Booking) ([live](https://lux-booking.streamlit.app/)): Streamlit hotel booking that checks the card and ends with a PDF ticket
+- [Weather Forecast Dashboard](https://github.com/AndrewTechTips/Weather-Forecast-Data-App) ([live](https://weathrly.streamlit.app/)): multi-day forecasts with Plotly charts
+- [Excel Invoices to PDF](https://github.com/AndrewTechTips/Excel_Invoices_To_Pdf): turns a folder of Excel invoices into print-ready PDFs
+
+**JavaScript**
+
+- [Battleship](https://github.com/AndrewTechTips/Project-BattleShip) ([live](https://andrewtechtips.github.io/Project-BattleShip/)): drag-and-drop fleet, a CPU opponent and Jest tests
+- [Weather App](https://github.com/AndrewTechTips/Weather-App) ([live](https://andrewtechtips.github.io/Weather-App/)): Visual Crossing API, with your location looked up on load
+- Data structures from scratch: [binary search tree](https://github.com/AndrewTechTips/Binary-Search-Trees), [hash map](https://github.com/AndrewTechTips/HashMap-Implementation), [linked list](https://github.com/AndrewTechTips/Linked-Lists-Implementation), [knight's shortest path with BFS](https://github.com/AndrewTechTips/Knight-Travails-JS)
+
+**Where I started**
+
+[Todo List](https://github.com/AndrewTechTips/Todo-List) · [Library](https://github.com/AndrewTechTips/project-library) · [Tic-Tac-Toe](https://github.com/AndrewTechTips/Tic-Tac-Toe) · [Restaurant Page](https://github.com/AndrewTechTips/restaurant-page) · [Calculator](https://github.com/AndrewTechTips/project-calculator) · [Etch-a-Sketch](https://github.com/AndrewTechTips/Etch-a-Sketch) · [Admin Dashboard](https://github.com/AndrewTechTips/admin-dashboard) · [Sign-up Form](https://github.com/AndrewTechTips/sign-up-form) · [Watch Landing Page](https://github.com/AndrewTechTips/landing-page) · [Recipes](https://github.com/AndrewTechTips/odin-recipes), my very first page
+
+</details>
+
+<br />
+
+## What I work with
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,js,ts,react,docker,githubactions,opencv,threejs,django,linux&perline=12" alt="Python, FastAPI, PostgreSQL, JavaScript, TypeScript, React, Docker, GitHub Actions, OpenCV, Three.js, Django, Linux" />
+</p>
+
+**Most days:** Python, FastAPI, PostgreSQL with SQLAlchemy and Alembic, plain JavaScript,
+Docker and GitHub Actions, with pytest and Playwright for tests.<br />
+**When the project needs it:** Django, Flask, React with TypeScript, Tailwind, Vite, OpenCV,
+Three.js and GLSL, Supabase, Traefik on a Linux VPS.
+
+I don't add a framework or a build step until a project asks for one. Every dependency is
+something I have to keep up to date and understand when it breaks, and on projects this size
+I'd rather read a hundred lines of my own. When a tool earns its place, it goes in: Iron Log
+uses Vite only because hashed filenames replaced a cache-busting scheme I kept getting wrong
+by hand.
+
+<br />
 
 ## Certifications
 
-<div align="center">
-
 [![CS50P](https://img.shields.io/badge/Harvard%20CS50P%20%E2%80%94%20Programming%20with%20Python-A41034?style=for-the-badge&logo=python&logoColor=white)](https://cs50.harvard.edu/python/) ![Cambridge English](https://img.shields.io/badge/Cambridge%20English-002855?style=for-the-badge&logo=googlescholar&logoColor=white)
 
-<sub>Harvard University · Cambridge Assessment English</sub>
-
-</div>
-
 <br />
-
----
 
 <div align="center">
 
@@ -242,7 +208,8 @@ background sweep survives the database blinking.
 
 <br /><br />
 
-**Currently** building Iron Log, and reading about how to keep an always-on service honest when the things it depends on aren't.
+**Right now** I'm working on the last optional pieces of IoT Vision Hub: privacy masks and an
+MQTT bridge for Home Assistant.
 
 <br />
 
